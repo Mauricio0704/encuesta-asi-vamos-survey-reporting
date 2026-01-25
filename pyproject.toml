@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "survey-reporting-tool"
+version = "0.1.0"
+description = "Como Vamos Nuevo Leon survey reporting tool"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+  "pandas>=2.0",
+  "openpyxl>=3.1",
+  "tqdm>=4.65"
+]
