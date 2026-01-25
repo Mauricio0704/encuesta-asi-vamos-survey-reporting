@@ -1,5 +1,16 @@
 AGE_BINS = [0, 5, 12, 17, 24, 34, 44, 54, 64, 74, 999]
-AGE_LABELS = ["0-5", "6-12", "13-17", "18-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75 o más"]
+AGE_LABELS = [
+    "0-5",
+    "6-12",
+    "13-17",
+    "18-24",
+    "25-34",
+    "35-44",
+    "45-54",
+    "55-64",
+    "65-74",
+    "75 o más",
+]
 
 AMM_ID = [6, 9, 21, 18, 26, 31, 39, 46, 19, 48, 49]
 PERIFERIA_ID = [10, 12, 25, 41, 45]
@@ -61,4 +72,74 @@ ID_TO_CITY_NAME = {
     111: "Fuera del País",
     8888: "No sabe",
     9999: "No contesta",
+}
+
+
+DESIRED_ORDERS = {
+    "sexo": [
+        "Hombre",
+        "Mujer",
+    ],
+    "estudios": [
+        "Ninguno",
+        "Preescolar",
+        "Primaria",
+        "Secundaria",
+        "Preparatoria o bachillerato general",
+        "Bachillerato tecnológico",
+        "Estudios técnicos o comerciales con primaria terminada",
+        "Estudios técnicos o comerciales con secundaria terminada",
+        "Estudios técnicos o comerciales con preparatoria terminada",
+        "Normal con primaria o secundaria terminada",
+        "Normal de licenciatura",
+        "Licenciatura",
+        "Especialidad",
+        "Maestría",
+        "Doctorado",
+    ],
+    "ingreso": [
+        "Sin ingreso",
+        "No contesta",
+        "Menos de 1 SM ($1 - $8,364)",
+        "1-2 SM ($8,364 - $16,728)",
+        "2-3 SM ($16,728 - $25,092)",
+        "3-4 SM ($25,092 - $33,456)",
+        "4-5 SM ($33,456 - $41,820)",
+        "5-6 SM ($41,820 - $50,184)",
+        "6-7 SM ($50,184 - $58,548)",
+        "7-8 SM ($58,548 - $66,912)",
+        "8-9 SM ($66,912 - $75,276)",
+        "9-10 SM ($75,276 - $83,640)",
+        "10 o más SM ($83,640 o más)",
+    ],
+    "edad": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-24",
+        "25-34",
+        "35-44",
+        "45-54",
+        "55-64",
+        "65-74",
+        "75 o más",
+    ],
+    "municipio": [
+        "Apodaca",
+        "Cadereyta",
+        "Escobedo",
+        "García",
+        "Guadalupe",
+        "Juárez",
+        "Monterrey",
+        "San Nicolás de los Garza",
+        "San Pedro Garza García",
+        "Santa Catarina",
+        "Santiago",
+        "AMM",
+        "Periferia",
+        "Resto NL",
+        "Nuevo León",
+    ],
+    "tipo_escuela": ["Pública", "Privada", "Otro tipo"],
 }

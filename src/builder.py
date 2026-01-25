@@ -3,12 +3,6 @@ import json
 from tqdm import tqdm
 
 from src.paths import OUTPUT_DIR, PROCESSED_DATA_DIR
-from src.extend_tables import (
-    add_total_row,
-    get_relative_table,
-    add_weighted_average_row,
-    add_total_column,
-)
 from src.repository import (
     get_questions_by_section,
 )
@@ -17,6 +11,10 @@ from src.excel import (
     write_text_to_excel,
     write_table_to_excel,
     get_writer_config,
+    add_total_row,
+    get_relative_table,
+    add_weighted_average_row,
+    add_total_column,
 )
 from src.repository import build_disaggregation_report
 
