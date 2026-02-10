@@ -1,5 +1,6 @@
 import pandas as pd
 from pathlib import Path
+from openpyxl.styles import Font, PatternFill, Alignment, Border, Side, numbers
 
 
 class ExcelContext:
@@ -24,6 +25,31 @@ def get_writer_config(output_path: Path) -> dict:
         "if_sheet_exists": if_sheet,
     }
 
+def _apply_text_style(ws, row: int, col: int) -> None:
+    cell = ws.cell(row=row, column=col)
+    cell.font = Font(bold=True, color="1F4E79")
+    cell.alignment = Alignment(vertical="center")
+
+def _apply_table_style(ws, start_row: int, start_col: int, n_rows: int, n_cols: int) -> None:
+    header_fill = PatternFill("solid", fgColor="D9E1F2")
+    header_font = Font(bold=True)
+    thin = Side(style="thin", color="C0C0C0")
+    border = Border(left=thin, right=thin, top=thin, bottom=thin)
+
+    # Header row
+    for c in range(start_col, start_col + n_cols):
+        cell = ws.cell(row=start_row, column=c)
+        cell.fill = header_fill
+        cell.font = header_font
+        cell.alignment = Alignment(horizontal="center", vertical="center")
+
+    # Data cells
+    for r in range(start_row + 1, start_row + n_rows):
+        for c in range(start_col, start_col + n_cols):
+            cell = ws.cell(row=r, column=c)
+            cell.border = border
+            if c >= start_col + 2:
+                cell.number_format = numbers.FORMAT_NUMBER_00
 
 def write_text_to_excel(ctx: ExcelContext, text: str) -> None:
     pd.DataFrame([[text]]).to_excel(
@@ -33,6 +59,8 @@ def write_text_to_excel(ctx: ExcelContext, text: str) -> None:
         index=False,
         header=False,
     )
+    ws = ctx.writer.sheets[ctx.sheet_name]
+    _apply_text_style(ws, ctx.start_row + 1, 1)
     ctx.start_row += 2
 
 
@@ -43,6 +71,8 @@ def write_table_to_excel(ctx: ExcelContext, df: pd.DataFrame) -> None:
         startrow=ctx.start_row,
         index=False,
     )
+    ws = ctx.writer.sheets[ctx.sheet_name]
+    _apply_table_style(ws, ctx.start_row + 1, 1, len(df) + 1, len(df.columns))
     ctx.start_row += len(df) + 3
 
 
