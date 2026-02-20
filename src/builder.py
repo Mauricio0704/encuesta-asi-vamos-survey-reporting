@@ -15,7 +15,7 @@ from src.excel import (
     add_total_column,
 )
 from src.repository import build_disaggregation_report
-from src.metadata import DISAGGREGATIONS_TO_TITLES
+from src.metadata import DISAGGREGATIONS_TO_TITLES, DERIVED_NEXT
 
 with open(PROCESSED_DATA_DIR / "disaggregations.json", "r") as file:
     data: dict = json.load(file)
@@ -52,6 +52,48 @@ def _parse_question_id(question_id: str) -> tuple[str, int, int]:
     return (prefix, main_num, suffix_num)
 
 
+def _reorder_derived_questions(questions_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Reorder derived questions to appear before their target questions.
+    
+    Example:
+        If DERIVED_NEXT contains ("tiempo_trabajo", "p3_1"),
+        then tiempo_trabajo will be moved to appear right before p3_1.
+    """
+    df = questions_df.copy().reset_index(drop=True)
+    
+    for derived_id, target_id in DERIVED_NEXT:
+        # Find indices of both questions
+        derived_mask = df['id'] == derived_id
+        target_mask = df['id'] == target_id
+        
+        # Skip if either question is not in the dataframe
+        if not derived_mask.any() or not target_mask.any():
+            continue
+        
+        derived_idx = derived_mask.idxmax()
+        target_idx = target_mask.idxmax()
+        
+        # Remove the derived row
+        derived_row = df.loc[derived_idx].copy()
+        df = df.drop(derived_idx).reset_index(drop=True)
+        
+        # Find new index of target (it may have shifted after removal)
+        target_mask = df['id'] == target_id
+        if not target_mask.any():
+            continue
+        target_idx = target_mask.idxmax()
+        
+        # Insert derived row before target
+        df = pd.concat([
+            df.iloc[:target_idx],
+            pd.DataFrame([derived_row]),
+            df.iloc[target_idx:]
+        ], ignore_index=True)
+    
+    return df
+
+
 def _sort_questions(questions_df: pd.DataFrame) -> pd.DataFrame:
     """
     Sort questions by grouping cp questions first, then p questions.
@@ -62,6 +104,7 @@ def _sort_questions(questions_df: pd.DataFrame) -> pd.DataFrame:
     """
     questions_df['sort_key'] = questions_df['id'].apply(_parse_question_id)
     questions_df = questions_df.sort_values('sort_key').drop('sort_key', axis=1).reset_index(drop=True)
+    questions_df = _reorder_derived_questions(questions_df)
     return questions_df
 
 

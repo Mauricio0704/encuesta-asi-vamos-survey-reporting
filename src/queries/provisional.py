@@ -928,7 +928,6 @@ def get_ingreso_by_region(region_id: int, initial_only: bool = True) -> str:
     1: AMM
     2: Periferia
     3: Resto NL
-    4: Nuevo León
     """
 
     weight = _get_weight_clause(initial_only)
@@ -942,8 +941,6 @@ def get_ingreso_by_region(region_id: int, initial_only: bool = True) -> str:
         region_condition = (
             f"r.city_id NOT IN ({', '.join(map(str, AMM_ID + PERIFERIA_ID))})"
         )
-    elif region_id == 4:
-        region_condition = "r.city_id IS NOT NULL"
     else:
         raise ValueError("Invalid region_id. Must be 1, 2, 3, or 4.")
 
@@ -1176,9 +1173,6 @@ DISAGGREGATIONS_MAP = {
     ),
     "ingreso_por_region_resto_nl": lambda initial_only: get_ingreso_by_region(
         3, initial_only
-    ),
-    "ingreso_por_region_nuevo_leon": lambda initial_only: get_ingreso_by_region(
-        4, initial_only
     ),
     "particion_modal_agregada_por_municipio": lambda initial_only: get_particion_modal_agregada_por_region_query(
         initial_only
