@@ -64,14 +64,15 @@ def _append_question_to_sheet(
     tables: list[tuple[str, pd.DataFrame, pd.DataFrame]],
 ) -> None:
     if notes:
-        write_text_to_excel(ctx, notes)
+        write_text_to_excel(ctx, notes, is_hdr=True)
+        ctx.start_row -= 1
 
-    write_text_to_excel(ctx, question_title)
+    write_text_to_excel(ctx, question_title, is_hdr=True)
 
     for title, df, relative_df in tables:
         write_text_to_excel(ctx, title)
         write_table_to_excel(ctx, df)
-        write_table_to_excel(ctx, relative_df)
+        write_table_to_excel(ctx, relative_df, is_rel=True)
 
 
 def build_question_report(

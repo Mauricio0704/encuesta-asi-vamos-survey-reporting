@@ -142,4 +142,5 @@ DESIRED_ORDERS = {
         "Nuevo León",
     ],
     "tipo_escuela": ["Pública", "Privada", "Otro tipo"],
+    "tipo_trabajo": ["Trabajo remunerado", "Trabajo no remunerado", "Otro"],
 }

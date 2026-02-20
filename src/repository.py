@@ -67,6 +67,8 @@ def build_disaggregation_report(
         desired_order = DESIRED_ORDERS.get("tipo_escuela")
     elif disaggregation == "sexo":
         desired_order = DESIRED_ORDERS.get("sexo")
+    elif disaggregation.startswith("tipo_trabajo"):
+        desired_order = DESIRED_ORDERS.get("tipo_trabajo")
     
     if desired_order:
         group_cols = [col for col in desired_order if col in group_cols]
