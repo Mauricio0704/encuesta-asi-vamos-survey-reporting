@@ -1,6 +1,6 @@
 import pandas as pd
 from pathlib import Path
-from openpyxl.styles import Font, PatternFill, Alignment, Border, Side, numbers
+from openpyxl.styles import Font, Alignment, Border, Side, numbers
 
 
 class ExcelContext:
@@ -55,6 +55,10 @@ def _apply_table_style(
     # Data cells
     for r in range(start_row + 1, start_row + n_rows):
         is_last_row = r == start_row + n_rows - 1
+        # Check if this row is a "Promedio" row
+        first_cell_value = ws.cell(row=r, column=start_col).value
+        is_promedio_row = first_cell_value == "Promedio"
+        
         for c in range(start_col, start_col + n_cols):
             cell = ws.cell(row=r, column=c)
             is_first = c == start_col
@@ -67,6 +71,8 @@ def _apply_table_style(
             if c >= start_col + 2:
                 if is_rel:
                     cell.number_format = "0.0%"
+                elif is_promedio_row:
+                    cell.number_format = "0.0"
                 else:
                     cell.number_format = numbers.FORMAT_NUMBER
 
