@@ -1,6 +1,6 @@
 import pandas as pd
 from pathlib import Path
-from openpyxl.styles import Font, PatternFill, Alignment, Border, Side, numbers
+from openpyxl.styles import Font, Alignment, Border, Side, numbers
 
 
 class ExcelContext:
@@ -25,33 +25,59 @@ def get_writer_config(output_path: Path) -> dict:
         "if_sheet_exists": if_sheet,
     }
 
-def _apply_text_style(ws, row: int, col: int) -> None:
-    cell = ws.cell(row=row, column=col)
-    cell.font = Font(bold=True, color="1F4E79")
-    cell.alignment = Alignment(vertical="center")
 
-def _apply_table_style(ws, start_row: int, start_col: int, n_rows: int, n_cols: int) -> None:
-    header_fill = PatternFill("solid", fgColor="D9E1F2")
-    header_font = Font(bold=True)
-    thin = Side(style="thin", color="C0C0C0")
-    border = Border(left=thin, right=thin, top=thin, bottom=thin)
+def _apply_text_style(ws, row: int, col: int, is_hdr: bool) -> None:
+    cell = ws.cell(row=row, column=col)
+    bold = True
+    color = "7E33C3" if is_hdr else None
+
+    cell.font = Font(bold=bold, color=color)
+
+
+def _apply_table_style(
+    ws, start_row: int, start_col: int, n_rows: int, n_cols: int, is_rel: bool
+) -> None:
+    thin = Side(style="thin", color="000000")
 
     # Header row
     for c in range(start_col, start_col + n_cols):
+        is_first = c == start_col
+        is_last = c == start_col + n_cols - 1
         cell = ws.cell(row=start_row, column=c)
-        cell.fill = header_fill
-        cell.font = header_font
-        cell.alignment = Alignment(horizontal="center", vertical="center")
+        cell.alignment = Alignment(horizontal="left")
+        cell.border = Border(
+            left=thin if is_first else None,
+            right=thin if is_last else None,
+            top=thin,
+            bottom=thin,
+        )
 
     # Data cells
     for r in range(start_row + 1, start_row + n_rows):
+        is_last_row = r == start_row + n_rows - 1
+        # Check if this row is a "Promedio" row
+        first_cell_value = ws.cell(row=r, column=start_col).value
+        is_promedio_row = first_cell_value == "Promedio"
+        
         for c in range(start_col, start_col + n_cols):
             cell = ws.cell(row=r, column=c)
-            cell.border = border
+            is_first = c == start_col
+            is_last = c == start_col + n_cols - 1
+            cell.border = Border(
+                left=thin if is_first else None,
+                right=thin if is_last else None,
+                bottom=thin if is_last_row else None,
+            )
             if c >= start_col + 2:
-                cell.number_format = numbers.FORMAT_NUMBER_00
+                if is_rel:
+                    cell.number_format = "0.0%"
+                elif is_promedio_row:
+                    cell.number_format = "0.0"
+                else:
+                    cell.number_format = numbers.FORMAT_NUMBER
 
-def write_text_to_excel(ctx: ExcelContext, text: str) -> None:
+
+def write_text_to_excel(ctx: ExcelContext, text: str, is_hdr: bool = False) -> None:
     pd.DataFrame([[text]]).to_excel(
         ctx.writer,
         sheet_name=ctx.sheet_name,
@@ -60,11 +86,13 @@ def write_text_to_excel(ctx: ExcelContext, text: str) -> None:
         header=False,
     )
     ws = ctx.writer.sheets[ctx.sheet_name]
-    _apply_text_style(ws, ctx.start_row + 1, 1)
+    _apply_text_style(ws, ctx.start_row + 1, 1, is_hdr)
     ctx.start_row += 2
 
 
-def write_table_to_excel(ctx: ExcelContext, df: pd.DataFrame) -> None:
+def write_table_to_excel(
+    ctx: ExcelContext, df: pd.DataFrame, is_rel: bool = False
+) -> None:
     df.to_excel(
         ctx.writer,
         sheet_name=ctx.sheet_name,
@@ -72,7 +100,7 @@ def write_table_to_excel(ctx: ExcelContext, df: pd.DataFrame) -> None:
         index=False,
     )
     ws = ctx.writer.sheets[ctx.sheet_name]
-    _apply_table_style(ws, ctx.start_row + 1, 1, len(df) + 1, len(df.columns))
+    _apply_table_style(ws, ctx.start_row + 1, 1, len(df) + 1, len(df.columns), is_rel)
     ctx.start_row += len(df) + 3
 
 

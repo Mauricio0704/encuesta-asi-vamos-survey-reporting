@@ -112,9 +112,9 @@ def get_tipo_trabajo_query(initial_only: bool = True) -> str:
             COALESCE(o.option_id, a.value)        AS id_respuesta,
             COALESCE(o.option_label, CAST(a.value AS TEXT))     AS Respuesta,
             CASE
-                WHEN ra.value IN (1, 4, 6) THEN 'trabajo remunerado'
-                WHEN ra.value = 5 THEN 'trabajo no remunerado'
-                ELSE 'otro'
+                WHEN ra.value IN (1, 4, 6) THEN 'Trabajo remunerado'
+                WHEN ra.value = 5 THEN 'Trabajo no remunerado'
+                ELSE 'Otro'
             END AS grupo,
             SUM({weight}) AS valor
         FROM answers a
@@ -149,9 +149,9 @@ def get_tipo_trabajo_by_sex_query(sex_id: int = 0, initial_only: bool = True) ->
             COALESCE(o.option_id, a.value)        AS id_respuesta,
             COALESCE(o.option_label, CAST(a.value AS TEXT))     AS Respuesta,
             CASE
-                WHEN ra.value IN (1, 4, 6) THEN 'trabajo remunerado'
-                WHEN ra.value = 5 THEN 'trabajo no remunerado'
-                ELSE 'otro'
+                WHEN ra.value IN (1, 4, 6) THEN 'Trabajo remunerado'
+                WHEN ra.value = 5 THEN 'Trabajo no remunerado'
+                ELSE 'Otro'
             END AS grupo,
             SUM({weight}) AS valor
         FROM answers a
@@ -928,7 +928,6 @@ def get_ingreso_by_region(region_id: int, initial_only: bool = True) -> str:
     1: AMM
     2: Periferia
     3: Resto NL
-    4: Nuevo León
     """
 
     weight = _get_weight_clause(initial_only)
@@ -942,8 +941,6 @@ def get_ingreso_by_region(region_id: int, initial_only: bool = True) -> str:
         region_condition = (
             f"r.city_id NOT IN ({', '.join(map(str, AMM_ID + PERIFERIA_ID))})"
         )
-    elif region_id == 4:
-        region_condition = "r.city_id IS NOT NULL"
     else:
         raise ValueError("Invalid region_id. Must be 1, 2, 3, or 4.")
 
@@ -999,10 +996,10 @@ def get_particion_modal_agregada_por_region_query(initial_only: bool = True) -> 
         city_case += f"WHEN r.city_id = {city_id} THEN '{city_name}'\n            "
 
     mode_case = f"""CASE
-                WHEN ra.value IN ({', '.join(map(str, medios_motorizados_no_colectivos))}) THEN 'Medios Motorizados No Colectivos'
-                WHEN ra.value IN ({', '.join(map(str, medios_no_motorizados))}) THEN 'Medios No Motorizados'
-                WHEN ra.value IN ({', '.join(map(str, transporte_publico_colectivo))}) THEN 'Transporte Publico Colectivo'
-                WHEN ra.value IN ({', '.join(map(str, transporte_privado_colectivo))}) THEN 'Transporte Privado Colectivo'
+                WHEN ra.value IN ({', '.join(map(str, medios_motorizados_no_colectivos))}) THEN 'Medios motorizados no colectivos'
+                WHEN ra.value IN ({', '.join(map(str, medios_no_motorizados))}) THEN 'Medios no motorizados'
+                WHEN ra.value IN ({', '.join(map(str, transporte_publico_colectivo))}) THEN 'Transporte publico colectivo'
+                WHEN ra.value IN ({', '.join(map(str, transporte_privado_colectivo))}) THEN 'Transporte privado colectivo'
                 WHEN ra.value IN ({', '.join(map(str, otros))}) THEN 'Otros'
                 WHEN ra.value IN (8888) THEN 'No Sabe'
                 WHEN ra.value IN (9999) THEN 'No Contesta'
@@ -1176,9 +1173,6 @@ DISAGGREGATIONS_MAP = {
     ),
     "ingreso_por_region_resto_nl": lambda initial_only: get_ingreso_by_region(
         3, initial_only
-    ),
-    "ingreso_por_region_nuevo_leon": lambda initial_only: get_ingreso_by_region(
-        4, initial_only
     ),
     "particion_modal_agregada_por_municipio": lambda initial_only: get_particion_modal_agregada_por_region_query(
         initial_only
