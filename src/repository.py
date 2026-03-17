@@ -55,14 +55,14 @@ def build_disaggregation_report(
 
     desired_order = None
 
-    if disaggregation == "nivel_max_estudios" or disaggregation.startswith("nivel_actual_estudios"):
+    if "municipio" in disaggregation:
+        desired_order = DESIRED_ORDERS.get("municipio")
+    elif disaggregation == "nivel_max_estudios" or disaggregation.startswith("nivel_actual_estudios"):
         desired_order = DESIRED_ORDERS.get("estudios")
     elif disaggregation == "ingreso":
         desired_order = DESIRED_ORDERS.get("ingreso")
     elif disaggregation == "edad":
         desired_order = DESIRED_ORDERS.get("edad")
-    elif "municipio" in disaggregation:
-        desired_order = DESIRED_ORDERS.get("municipio")
     elif disaggregation == "tipo_escuela":
         desired_order = DESIRED_ORDERS.get("tipo_escuela")
     elif disaggregation == "sexo":
