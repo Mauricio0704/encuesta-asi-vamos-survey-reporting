@@ -1,0 +1,6456 @@
+{
+  "cp1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "tipo_trabajo_por_hombres"
+    },
+    {
+      "type": "tipo_trabajo_por_mujeres"
+    }
+  ],
+  "cp2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "cp3": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "cp4_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "cp4_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "cp5": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "cp6": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "cp7": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "cp8": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "cp9": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "cp10_a": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "tipo_escuela"
+    },
+    {
+      "type": "nivel_actual_estudios"
+    },
+    {
+      "type": "nivel_actual_estudios_por_escuela_publica"
+    },
+    {
+      "type": "nivel_actual_estudios_por_escuela_privada"
+    }
+  ],
+  "cp10_b": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "tipo_escuela"
+    },
+    {
+      "type": "nivel_actual_estudios"
+    },
+    {
+      "type": "nivel_actual_estudios_por_escuela_publica"
+    },
+    {
+      "type": "nivel_actual_estudios_por_escuela_privada"
+    }
+  ],
+  "cp11": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "cp12": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "nivel_actual_estudios"
+    }
+  ],
+  "cp13": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "tipo_escuela"
+    },
+    {
+      "type": "nivel_actual_estudios"
+    },
+    {
+      "type": "nivel_actual_estudios_por_escuela_publica"
+    },
+    {
+      "type": "nivel_actual_estudios_por_escuela_privada"
+    }
+  ],
+  "cp14": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "tipo_escuela"
+    },
+    {
+      "type": "nivel_actual_estudios"
+    },
+    {
+      "type": "nivel_actual_estudios_por_escuela_publica"
+    },
+    {
+      "type": "nivel_actual_estudios_por_escuela_privada"
+    }
+  ],
+  "cp15_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "tipo_escuela"
+    },
+    {
+      "type": "nivel_actual_estudios"
+    }
+  ],
+  "cp15_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "tipo_escuela"
+    },
+    {
+      "type": "nivel_actual_estudios"
+    }
+  ],
+  "cp16": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "tipo_escuela"
+    }
+  ],
+  "cp17": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "tipo_escuela"
+    },
+    {
+      "type": "nivel_actual_estudios"
+    },
+    {
+      "type": "nivel_actual_estudios_por_escuela_publica"
+    },
+    {
+      "type": "nivel_actual_estudios_por_escuela_privada"
+    }
+  ],
+  "cp18": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "tipo_escuela"
+    },
+    {
+      "type": "nivel_actual_estudios"
+    },
+    {
+      "type": "nivel_actual_estudios_por_escuela_publica"
+    },
+    {
+      "type": "nivel_actual_estudios_por_escuela_privada"
+    }
+  ],
+  "cp19": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "tipo_escuela"
+    },
+    {
+      "type": "nivel_actual_estudios"
+    },
+    {
+      "type": "nivel_actual_estudios_por_escuela_publica"
+    },
+    {
+      "type": "nivel_actual_estudios_por_escuela_privada"
+    },
+    {
+      "type": "nivel_actual_estudios_primaria_por_municipio"
+    },
+    {
+      "type": "nivel_actual_estudios_secundaria_por_municipio"
+    },
+    {
+      "type": "nivel_actual_estudios_media_superior_por_municipio"
+    }
+  ],
+  "p1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "tiempo_trabajo": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "trabajo_remunerado"
+    },
+    {
+      "type": "trabajo_remunerado_por_hombres"
+    },
+    {
+      "type": "trabajo_remunerado_por_mujeres"
+    },
+    {
+      "type": "tipo_trabajo"
+    },
+    {
+      "type": "tipo_trabajo_por_hombres"
+    },
+    {
+      "type": "tipo_trabajo_por_mujeres"
+    }
+  ],
+  "p4": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "trabajo_remunerado"
+    },
+    {
+      "type": "trabajo_remunerado_por_hombres"
+    },
+    {
+      "type": "trabajo_remunerado_por_mujeres"
+    },
+    {
+      "type": "tipo_trabajo"
+    },
+    {
+      "type": "tipo_trabajo_por_hombres"
+    },
+    {
+      "type": "tipo_trabajo_por_mujeres"
+    }
+  ],
+  "p5_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "trabajo_remunerado"
+    }
+  ],
+  "p5_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "trabajo_remunerado"
+    }
+  ],
+  "p5_3": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "trabajo_remunerado"
+    }
+  ],
+  "p5_4": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "trabajo_remunerado"
+    }
+  ],
+  "p5_5": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "trabajo_remunerado"
+    }
+  ],
+  "p5_6": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "trabajo_remunerado"
+    }
+  ],
+  "p5_7": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "trabajo_remunerado"
+    }
+  ],
+  "p5_8": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "trabajo_remunerado"
+    }
+  ],
+  "p6": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "nivel_max_estudios"
+    },
+    {
+      "type": "trabajo_remunerado_por_hombres"
+    },
+    {
+      "type": "trabajo_remunerado_por_mujeres"
+    },
+    {
+      "type": "tipo_trabajo_por_hombres"
+    },
+    {
+      "type": "tipo_trabajo_por_mujeres"
+    }
+  ],
+  "p6_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "nivel_max_estudios"
+    },
+    {
+      "type": "trabajo_remunerado_por_hombres"
+    },
+    {
+      "type": "trabajo_remunerado_por_mujeres"
+    },
+    {
+      "type": "tipo_trabajo_por_hombres"
+    },
+    {
+      "type": "tipo_trabajo_por_mujeres"
+    }
+  ],
+  "quehaceres_hogar": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "nivel_max_estudios"
+    },
+    {
+      "type": "trabajo_remunerado"
+    },
+    {
+      "type": "trabajo_remunerado_por_hombres"
+    },
+    {
+      "type": "trabajo_remunerado_por_mujeres"
+    },
+    {
+      "type": "tipo_trabajo"
+    },
+    {
+      "type": "tipo_trabajo_por_hombres"
+    },
+    {
+      "type": "tipo_trabajo_por_mujeres"
+    },
+    {
+      "type": "trabajo_remunerado_por_municipio"
+    }
+  ],
+  "cuidados_personas": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "nivel_max_estudios"
+    },
+    {
+      "type": "trabajo_remunerado"
+    },
+    {
+      "type": "trabajo_remunerado_por_hombres"
+    },
+    {
+      "type": "trabajo_remunerado_por_mujeres"
+    },
+    {
+      "type": "tipo_trabajo"
+    },
+    {
+      "type": "tipo_trabajo_por_hombres"
+    },
+    {
+      "type": "tipo_trabajo_por_mujeres"
+    },
+    {
+      "type": "trabajo_remunerado_por_municipio"
+    }
+  ],
+  "trabajo_formal": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "trabajo_remunerado"
+    },
+    {
+      "type": "tipo_trabajo"
+    }
+  ],
+  "ocio": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "nivel_max_estudios"
+    },
+    {
+      "type": "trabajo_remunerado"
+    },
+    {
+      "type": "trabajo_remunerado_por_hombres"
+    },
+    {
+      "type": "trabajo_remunerado_por_mujeres"
+    },
+    {
+      "type": "tipo_trabajo"
+    },
+    {
+      "type": "tipo_trabajo_por_hombres"
+    },
+    {
+      "type": "tipo_trabajo_por_mujeres"
+    }
+  ],
+  "p10": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p11": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p12": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p13": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p14": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p15": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p16": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p17": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "particion_modal_agregada_por_municipio"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "p18": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p19": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p22": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p23": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "promedio_modo_transporte_y_municipio"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "p24": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "promedio_modo_transporte_y_municipio"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "p25": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "promedio_modo_transporte_y_municipio"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "p26": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "promedio_modo_transporte_y_municipio"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "p29": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "p30": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "p31": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p32_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p32_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p32_3": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p32_4": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p32_5": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p32_6": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p33": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p34": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p35": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p36_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p36_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p36_3": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p36_4": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p36_5": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p36_6": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p36_7": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p37": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p38": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p39_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p39_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p39_3": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p39_4": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p40": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p41": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p42": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p43": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p44_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p44_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p44_3": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p44_4": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p44_5": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p44_6": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p44_7": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p44_8": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p45": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p46": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p47": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p48": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p49": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "p50": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "promedio_modo_transporte_y_municipio"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "p51": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p52": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p53": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "ingreso_por_apodaca"
+    },
+    {
+      "type": "ingreso_por_cadereyta"
+    },
+    {
+      "type": "ingreso_por_escobedo"
+    },
+    {
+      "type": "ingreso_por_garcia"
+    },
+    {
+      "type": "ingreso_por_guadalupe"
+    },
+    {
+      "type": "ingreso_por_juarez"
+    },
+    {
+      "type": "ingreso_por_monterrey"
+    },
+    {
+      "type": "ingreso_por_san_nicolas"
+    },
+    {
+      "type": "ingreso_por_san_pedro"
+    },
+    {
+      "type": "ingreso_por_santa_catarina"
+    },
+    {
+      "type": "ingreso_por_santiago"
+    },
+    {
+      "type": "ingreso_por_region_amm"
+    },
+    {
+      "type": "ingreso_por_region_periferia"
+    },
+    {
+      "type": "ingreso_por_region_resto_nl"
+    }
+  ],
+  "p54": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    },
+    {
+      "type": "ingreso_por_apodaca"
+    },
+    {
+      "type": "ingreso_por_cadereyta"
+    },
+    {
+      "type": "ingreso_por_escobedo"
+    },
+    {
+      "type": "ingreso_por_garcia"
+    },
+    {
+      "type": "ingreso_por_guadalupe"
+    },
+    {
+      "type": "ingreso_por_juarez"
+    },
+    {
+      "type": "ingreso_por_monterrey"
+    },
+    {
+      "type": "ingreso_por_san_nicolas"
+    },
+    {
+      "type": "ingreso_por_san_pedro"
+    },
+    {
+      "type": "ingreso_por_santa_catarina"
+    },
+    {
+      "type": "ingreso_por_santiago"
+    },
+    {
+      "type": "ingreso_por_region_amm"
+    },
+    {
+      "type": "ingreso_por_region_periferia"
+    },
+    {
+      "type": "ingreso_por_region_resto_nl"
+    }
+  ],
+  "p55": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p56": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p56_ultimos_5_anios": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p56_ultimos_10_anios": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p57": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p57_ultimos_5_anios": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p57_ultimos_10_anios": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p58": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p58_ultimos_5_anios": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p58_ultimos_10_anios": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p59": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p60": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p61": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p62_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p62_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p62_3": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p62_4": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p62_5": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p63": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p64": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p65": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p66": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p67": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p68": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p69": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p70": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p71_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p71_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p71_3": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p71_4": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p71_5": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p72": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p73": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p74": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p75": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p76": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p77": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p78": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p79": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p80": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p81": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "p82": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "p83_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p83_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p84": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p85": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p86": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p87": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p88": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p89_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p89_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p89_3": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p89_4": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p89_5": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p89_6": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p89_7": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p89_8": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p89_9": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p89_10": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p89_11": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p89_12": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p89_13": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p89_14": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p89_15": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p89_16": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p90_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p90_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p91": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p92": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p93": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "tipo_consulta"
+    }
+  ],
+  "p94": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p95": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "servicio_salud_donde_se_atendio"
+    },
+    {
+      "type": "tipo_servicio_salud_donde_se_atendio"
+    }
+  ],
+  "p96": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "servicio_salud_donde_se_atendio"
+    },
+    {
+      "type": "tipo_servicio_salud_donde_se_atendio"
+    }
+  ],
+  "p97": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p98": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "servicio_salud_donde_se_atendio"
+    },
+    {
+      "type": "tipo_servicio_salud_donde_se_atendio"
+    }
+  ],
+  "p99": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "servicio_salud_donde_se_atendio"
+    },
+    {
+      "type": "tipo_servicio_salud_donde_se_atendio"
+    }
+  ],
+  "p100": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p101": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "servicio_salud_donde_se_atendio"
+    },
+    {
+      "type": "tipo_servicio_salud_donde_se_atendio"
+    }
+  ],
+  "p102": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "tiempo_espera_consulta": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "servicio_salud_donde_se_atendio"
+    },
+    {
+      "type": "tipo_servicio_salud_donde_se_atendio"
+    }
+  ],
+  "p104": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "servicio_salud_donde_se_atendio"
+    },
+    {
+      "type": "tipo_servicio_salud_donde_se_atendio"
+    }
+  ],
+  "p105_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "servicio_salud_donde_se_atendio"
+    },
+    {
+      "type": "tipo_servicio_salud_donde_se_atendio"
+    }
+  ],
+  "p105_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "servicio_salud_donde_se_atendio"
+    },
+    {
+      "type": "tipo_servicio_salud_donde_se_atendio"
+    }
+  ],
+  "p105_3": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "servicio_salud_donde_se_atendio"
+    },
+    {
+      "type": "tipo_servicio_salud_donde_se_atendio"
+    }
+  ],
+  "p105_4": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "servicio_salud_donde_se_atendio"
+    },
+    {
+      "type": "tipo_servicio_salud_donde_se_atendio"
+    }
+  ],
+  "p106": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "servicio_salud_donde_se_atendio"
+    },
+    {
+      "type": "tipo_servicio_salud_donde_se_atendio"
+    }
+  ],
+  "p107_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p107_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p107_3": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p108": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p109": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p110": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p111": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p112": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p113": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p114": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p115": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p116": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p117": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p118": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p119": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p120_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p120_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p120_3": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p120_4": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p120_5": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p120_6": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p121_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p121_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p121_3": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p121_4": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p121_5": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p122": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p123": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p112_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p124_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p124_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p124_3": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p125": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p126_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p126_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p126_3": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p126_4": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p127": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p128": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p129": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p130": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p131": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p132": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p133": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p134": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p135": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p136": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p137": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p138": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p139": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p140": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p141": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p142": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p143": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p144": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p145": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p146": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p147": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p148": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p149": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p150": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p151": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p152": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p153": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p154": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p155": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p156": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p157": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p158": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p159": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p160": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p161_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p161_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p161_3": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p161_4": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p161_5": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p161_6": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p161_7": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p161_8": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p161_9": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p161_10": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p162_1": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p162_2": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p163": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p164": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p165": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p166": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "p167": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "afiliacion_servicio_salud"
+    }
+  ],
+  "num_discriminaciones": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "al_menos_una_discriminacion": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "al_menos_una_accion_pc": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "num_acciones_pc": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "costo_total_viaje_redondo": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "promedio_modo_transporte_y_municipio"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "tiempo_camina": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "promedio_modo_transporte_y_municipio"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "tiempo_espera": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "promedio_modo_transporte_y_municipio"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "tiempo_ida": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "promedio_modo_transporte_y_municipio"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "tiempo_regreso": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "promedio_modo_transporte_y_municipio"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "tiempo_total_traslado": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    },
+    {
+      "type": "promedio_modo_transporte_y_municipio"
+    },
+    {
+      "type": "ingreso"
+    }
+  ],
+  "usa_metro": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "usa_transporte_publico": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "victima_tp": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "prestaciones": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "total_min_trabajo_rem_y_norem": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "al_menos_un_problema_mental": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ],
+  "al_menos_un_problema_agua": [
+    {
+      "type": "totales"
+    },
+    {
+      "type": "municipio"
+    },
+    {
+      "type": "municipio_por_hombres"
+    },
+    {
+      "type": "municipio_por_mujeres"
+    },
+    {
+      "type": "sexo"
+    },
+    {
+      "type": "edad"
+    }
+  ]
+}

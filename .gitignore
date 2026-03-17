@@ -1,4 +1,5 @@
-data/
-venv/
+data/db/
+.venv/
 output/
 __pycache__/
+*.egg-info
