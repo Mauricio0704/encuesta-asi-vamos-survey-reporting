@@ -184,9 +184,10 @@ DISAGGREGATIONS_TO_TITLES = {
     "tipo_trabajo": "Respuesta por tipo de actividad laboral",
     "tipo_trabajo_por_hombres": "Respuesta de HOMBRES por tipo de actividad laboral",
     "tipo_trabajo_por_mujeres": "Respuesta de MUJERES por tipo de actividad laboral",
-    "nivel_actual_estudios_primaria_por_municipio": "Respuesta de personas con nivel actual de estudios PRIMARIA por unidad geográfica",
-    "nivel_actual_estudios_secundaria_por_municipio": "Respuesta de personas con nivel actual de estudios SECUNDARIA por unidad geográfica",
-    "nivel_actual_estudios_media_superior_por_municipio": "Respuesta de personas con nivel actual de estudios MEDIA SUPERIOR por unidad geográfica",
+    "nivel_actual_estudios_primaria_por_municipio": "Respuesta por unidad geográfica, estudia actualmente Primaria",
+    "nivel_actual_estudios_secundaria_por_municipio": "Respuesta por unidad geográfica, estudia actualmente Secundaria",
+    "nivel_actual_estudios_media_superior_por_municipio": "Respuesta por unidad geográfica, estudia actualmente Media Superior",
+    "trabajo_remunerado_por_municipio": "Respuesta por unidad geográfica, quienes tienen una actividad laboral remunerada",
 }
 
 DERIVED_NEXT: list[tuple[str, str]] = [
